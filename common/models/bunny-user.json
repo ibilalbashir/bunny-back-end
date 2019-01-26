@@ -1,0 +1,29 @@
+{
+  "name": "bunnyUser",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "credit":{
+      "type":"string",
+      "required":true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "superUser",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}
