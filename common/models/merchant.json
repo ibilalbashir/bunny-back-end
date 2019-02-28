@@ -26,17 +26,17 @@
       "type": "string",
       "required": true
     },
-    "email":{
-      "type":"string",
-      "required":true
+    "email": {
+      "type": "string",
+      "required": true
     },
-    "categoryId":{
-      "type":"string",
-      "required":true
+    "categoryId": {
+      "type": "string",
+      "required": true
     },
-    "website":{
-      "type":"string",
-      "required":false
+    "website": {
+      "type": "string",
+      "required": false
     }
   },
   "validations": [],

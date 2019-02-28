@@ -12,5 +12,15 @@
     "name": "mongoDB",
     "user": "",
     "connector": "mongodb"
+  },
+  "filestore-mongo": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "bunny-db",
+    "name": "filestore-mongo",
+    "connector": "loopback-component-storage",
+    "root": "./files",
+    "provider": "filesystem",
+    "nameConflict": "makeUnique"
   }
 }

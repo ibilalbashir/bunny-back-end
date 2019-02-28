@@ -50,5 +50,9 @@
   "merchant": {
     "dataSource": "mongoDB",
     "public": true
+  },
+  "attachments": {
+    "dataSource": "filestore-mongo",
+    "public": true
   }
 }

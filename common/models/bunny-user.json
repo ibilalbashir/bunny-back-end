@@ -10,9 +10,9 @@
       "type": "string",
       "required": true
     },
-    "credit":{
-      "type":"string",
-      "required":true
+    "credit": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],
