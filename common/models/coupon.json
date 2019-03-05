@@ -1,0 +1,30 @@
+{
+  "name": "coupon",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "code": {
+      "type": "string",
+      "required": true
+    },
+    "isUsed": {
+      "type": "boolean",
+      "required": true
+    },
+    "createdOn": {
+      "type": "string",
+      "required": false
+    },
+    "merchantId": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -42,5 +42,20 @@
   "validations": [],
   "relations": {},
   "acls": [],
-  "methods": {}
+  "methods": {
+    "prototype.generateCoupon": {
+      "accepts": [],
+      "returns": [{
+        "arg": "couponCode",
+        "type": "string",
+        "root": false,
+        "description": ""
+      }],
+      "description": "",
+      "http": [{
+        "path": "/generate-coupon",
+        "verb": "get"
+      }]
+    }
+  }
 }
